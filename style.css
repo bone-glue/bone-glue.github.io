@@ -148,6 +148,11 @@ h1{
 	height: 6em;
 	padding: 0;
 }
+.socials div {
+	height: inherit;
+	width:11em;
+	margin: auto;
+}
 .socials li{
 	height: inherit;
 	width: 100%;
