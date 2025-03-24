@@ -14,6 +14,17 @@ div.canvas{
 	margin: auto;
 	display: block;
 }
+div.game-background{
+	top: 18em;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 56em;
+	position: absolute;
+}
+.game-background div{
+	width: inherit;
+}
 div.grid {
 	top : -34px;
 	left: -46px;
@@ -41,7 +52,6 @@ header{
 	text-decoration: none;
 	display: block;
 	padding: 0;
-	text-decoration-color: darkgrey;
 }
 .links a{
 	max-width: 201px;
@@ -51,7 +61,7 @@ header{
 }
 a {
 	text-decoration: none;
-	text-decoration-color: black;
+		text-decoration-color: black;
 }
 a:hover {
 	text-decoration: underline;
@@ -78,6 +88,18 @@ nav{
 .links h3{
 	text-decoration: none;
 	text-decoration-color: black;
+	top: -13%;
+	position:relative;
+	margin: 0;
+	color: black;
+}
+.white-header a, h3{
+	text-decoration-color: aliceblue !important;
+	color: aliceblue !important;
+}
+.links h3{
+	text-decoration: none;
+	text-decoration-color: Aliceblue;
 	top: -13%;
 	position:relative;
 	margin: 0;
@@ -165,16 +187,24 @@ footer{
 	width: 100%;
 	display: flex;
 }
+#canvas{
+	margin: auto;
+	image-rendering: pixelated;
+	height: inherit;
+}
 /* Gamemaker Stuff */
  div.gm4html5_div_class {
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
+	 display: flex;
+	 height: 31em;
+				width: 100%;
+                margin: 5em auto 5em;
+                padding: 0;
+                border: 0;
             }
             div.gm4html5_login {
                 padding: 20px;
                 position: absolute;
-                border: solid 2px #000000;
+                border: solid 0px #000000;
                 background-color: #404040;
                 color:#00ff00;
                 border-radius: 15px;
