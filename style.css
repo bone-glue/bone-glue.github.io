@@ -183,7 +183,7 @@ h1{
 	animation: bounce .3s;
 }
 footer{
-	height: 6em;
+	height: 11em;
 	width: 100%;
 	display: flex;
 }
@@ -197,7 +197,7 @@ footer{
 	 display: flex;
 	 height: 31em;
 				width: 100%;
-                margin: 5em auto 5em;
+                margin: 5em auto 3em;
                 padding: 0;
                 border: 0;
             }
