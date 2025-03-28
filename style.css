@@ -127,20 +127,22 @@ nav{
 }
 /* Large Image Stuff */
 .arrow {
-	width: 3em;
+	width: 5em;
 	margin: auto;
 	float: left;
 	z-index: 3;
 	display:block;
+	opacity: .5;
 }
 .arrow:hover {
 	cursor: pointer;
+	opacity: 1;
 }
 #left {
-	margin-left: 4em;
+	margin-left: 9em;
 }
 #right {
-	margin-right: 4em;
+	margin-right: 9em;
 }
 #largeImgHolder{
 	top : 0;
