@@ -125,6 +125,23 @@ nav{
 	height: 240px;
 	width: 240px;
 }
+/* Large Image Stuff */
+.arrow {
+	width: 3em;
+	margin: auto;
+	float: left;
+	z-index: 3;
+	display:block;
+}
+.arrow:hover {
+	cursor: pointer;
+}
+#left {
+	margin-left: 4em;
+}
+#right {
+	margin-right: 4em;
+}
 #largeImgHolder{
 	top : 0;
 	left : 0;
@@ -135,7 +152,7 @@ nav{
 	flex-direction: column;
 	background-color: rgb(255,255,255,.75);
 	backdrop-filter: blur(15px);
-	z-index: 2;
+	z-index: 3;
 }
 #largeImg{
 	max-height: 100%;
@@ -145,11 +162,15 @@ nav{
 	max-width: 65%;
 	height: 65%;
 	margin: auto;
+	z-index: 3;
 }
 .image-text h3, p{
 	margin: 0;
 	width:inherit;
 	color:black;
+}
+image-text img{
+	z-index: 3;
 }
 .shadow div{
 	box-shadow: -12px 13px 21px;
