@@ -1,0 +1,1 @@
+document.getElementById("score").innerHTML = "score=" + global.gmlscore;

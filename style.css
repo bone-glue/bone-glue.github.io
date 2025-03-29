@@ -129,7 +129,6 @@ nav{
 .arrow {
 	width: 5em;
 	margin: auto;
-	float: left;
 	z-index: 3;
 	display:block;
 	opacity: .5;
