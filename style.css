@@ -110,16 +110,33 @@ nav{
 	margin-top: 6em;
 }
 .news-item{
-	margin: 3em 0 3em;
+	position: relative;
+	margin: 11em 0 12em;
 }
 .news-rec {
 	min-width: 10em;
-	min-height: 15em;
-	margin: 6em;
-	background-color: cornflowerblue;
-	opacity: .7;
-	backdrop-filter: blur(15px);
+	margin: 6em 9em 6em;
+	background-color: #83b8ef;
+	opacity: 0.7;
+	backdrop-filter: blur(18px);
 	border-radius: 4em;
+	padding: 4em;
+}
+.news-rec h2{
+	font-family: lores-22-serif, sans-serif;
+}
+.news-rec p{
+	font-family: lores-12, sans-serif; 
+}
+.news-blob{
+	position: absolute;
+	top: -7em;
+	left: 1em;
+}
+.news-cheeto{
+	position: absolute;
+	right: -1em;
+	bottom: -10em;
 }
 .thumbnail{
 
