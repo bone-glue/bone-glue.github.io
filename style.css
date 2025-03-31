@@ -124,6 +124,33 @@ nav{
 	font-family: lores-12, sans-serif; 
 	font-size: 2em;
 }
+.news-face{
+	position: absolute;
+	scale: 4.2;
+	image-rendering: pixelated;
+	left: 4em;
+	top: -7em;
+}
+.news-bomb{
+	position: absolute;
+	right: 1.2em;
+	scale: 3;
+	image-rendering: pixelated;
+	bottom: 3em;
+	
+}
+.mood-text{
+	position: absolute;
+	left: -5em;
+	top: -2em;
+	width: 13em;
+	
+}
+.mood-text p{
+	font-family: lores-9-narrow, sans-serif;
+	text-align: right;
+	font-size: 2em;
+}
 .news-blob{
 	position: absolute;
 	top: -7em;
