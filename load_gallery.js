@@ -11,3 +11,16 @@ for (const curobj of artArray) {
     document.getElementById("gallery").appendChild(galdiv);
     galdiv.appendChild(galimg);
 }
+document.addEventListener("keydown", (event) => {
+    const key = event.key;
+    switch (key) {
+        case "ArrowLeft":
+        case "Left":
+            showLargeImage(artArray[curimg - 1]);
+            break;
+        case "ArrowRight":
+        case "Right":
+            showLargeImage(artArray[curimg + 1]);
+            break;
+    }
+});

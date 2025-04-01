@@ -3,7 +3,7 @@ var curimg;
 const punypot1 = {
     name : "punypot1",
     img : "punypotluck_1.png",
-    title : "Puny Potluck (Part 1)",
+    title : "Garden Gathering (Part 1)",
     desc : "Goache, Colored Pencils - 2024",
 };
 const punypot2 = {
@@ -15,7 +15,7 @@ const punypot2 = {
 const punypot3 = {
     name : "punypot3",
     img : "punypotluck_3.png",
-    title : "Puny Potluck (Part 3)",
+    title : "Itty-Bitty Banquet (Part 3)",
     desc : "Goache, Colored Pencils - 2024",
 };
 const well = {

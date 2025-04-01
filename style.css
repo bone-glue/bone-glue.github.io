@@ -3,7 +3,13 @@
 	40% {translate: 0 -2em;animation-timing-function: ease-in}
 	100% {translate: 0 0;}
 }
+@keyframes scroll {
+	from {left : -2.89em;}
+	to {left :-1em;}
+}
 body{
+	margin: 0;
+	width: 100%;
 	background-color: Aliceblue;
 	font-family: termina, sans-serif;
 	font-weight: 600;
@@ -25,16 +31,26 @@ div.game-background{
 .game-background div{
 	width: inherit;
 }
+.grid-div{
+	top : -0;
+	left: -0;
+	width: 100%;
+	z-index: -1;
+	height: 500px;
+	position: absolute;
+	overflow: hidden;
+}
 div.grid {
-	top : -34px;
-	left: -46px;
-	width: 110%;
+	top : 0;
+	left: -200px;
+	width: 120%;
 	z-index: -1;
 	height: 500px;
 	position: absolute;
 	background-image: url(grid.svg);
 	background-repeat: repeat-x;
 	opacity: .1;
+	animation: scroll 3s linear infinite;
 }
 header{
 	z-index: 1;
@@ -162,7 +178,6 @@ nav{
 	bottom: -10em;
 }
 .thumbnail{
-
 	margin:  2%;
 }
 .gallery div{
@@ -207,7 +222,7 @@ nav{
 	position: fixed;
 	display: none;
 	flex-direction: column;
-	background-color: rgb(255,255,255,.75);
+	background-color: rgb(255,255,255,0.89);
 	backdrop-filter: blur(15px);
 	z-index: 3;
 }
