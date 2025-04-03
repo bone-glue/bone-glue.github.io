@@ -92,8 +92,8 @@ a:hover {
 }
 nav{
 	width: inherit;
-	height: 30%;
-	margin: auto 5%;
+	height: 23%;
+	margin: -4em auto 5%;
 	padding: 0;
 }
 .links li{
