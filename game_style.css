@@ -1,0 +1,26 @@
+ div.gm4html5_div_class {
+	 display: flex;
+	 height: 31em;
+				width: 100%;
+                margin: 5em auto 3em;
+                padding: 0;
+                border: 0;
+            }
+            div.gm4html5_login {
+                padding: 20px;
+                position: absolute;
+                border: solid 0px #000000;
+                background-color: #404040;
+                color:#00ff00;
+                border-radius: 15px;
+                box-shadow: #101010 20px 20px 40px;
+            }
+            div.gm4html5_cancel_button {
+                float: right;
+            }
+            div.gm4html5_login_button {
+                float: left;
+            }
+            div.gm4html5_login_header {
+                text-align: center;
+            }
