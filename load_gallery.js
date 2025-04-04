@@ -1,14 +1,17 @@
 var galdiv;
 var galimg;
+var indiv;
 var divArray = [ ];
 for (const curobj of artArray) {
+    indiv = document.createElement("div");
     galdiv = document.createElement("div");
     galimg = document.createElement("img");
-    galdiv.classList.add("thumbnail");
-    galimg.classList.add("thumbnail");
+    indiv.classList.add("thumb-inside");
+    galdiv.classList.add("thumbnail","shadow");
     galimg.src = "art/" + curobj.img;
     galdiv.setAttribute("onclick", "showLargeImage(" + curobj.name + ")");
-    document.getElementById("gallery").appendChild(galdiv);
+    indiv.appendChild(galdiv);
+    document.getElementById("gallery").appendChild(indiv);
     galdiv.appendChild(galimg);
 }
 document.addEventListener("keydown", (event) => {

@@ -1,23 +1,30 @@
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
+	overflow: visible;
 }
 .thumbnail{
-	margin:  2%;
-}
-.gallery div{
+	display: block;
+	transition: width .3s, height .3s;
+	margin: auto;
+	margin-top: auto;
 	height: 233px;
 	width: 233px;
-	overflow: hidden;
 }
 .thumbnail img{
 	object-fit: cover;
 	margin: auto;
-	transition: width .3s, height .3s;
-	height: 233px;
-	width: 233px;
+	height: inherit;
+	width: inherit;
 }
-.thumbnail img:hover{
+.thumb-inside{
+	display: flex;
+	width: 265px;
+	height: 265px;
+    margin:  0 auto 0;
+	overflow: visible;
+}
+.thumbnail:hover{
 	height: 240px;
 	width: 240px;
 }
