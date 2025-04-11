@@ -7,6 +7,11 @@
 	from {left : -2.89em;}
 	to {left :-1em;}
 }
+@keyframes music-button-ini {
+	0% {width: 16em;opacity: 1}
+	90% {width: 16em;;opacity: 1;}
+	100% {width: 5em;opacity: .25;animation-timing-function: ease-in}
+}
 body{
 	margin: 0;
 	width: 100%;
@@ -133,6 +138,35 @@ h1{
 .socials li{
 	height: inherit;
 	width: 100%;
+}
+.music-button {
+	position: fixed;
+	background-color: #c32121;
+	width: 5em;
+	height: 5em;
+	right: 1em;
+	bottom: 1em;
+	border-radius: 9em;
+	padding: 1em;
+	overflow:hidden;
+	animation: music-button-ini 3.5s;
+	opacity: .3;
+	transition: .25s;
+}
+.music-button:hover {
+	opacity: 1;
+	width: 16em;
+}
+.music-button img{
+	height: inherit;
+	float: right;
+	
+}
+.music-button h2{
+	color:aliceblue;
+	position:absolute;
+	right: 5.8em;
+	scale: 1.3;
 }
 .bounce:hover .inner-bounce {
 	animation: bounce .3s;

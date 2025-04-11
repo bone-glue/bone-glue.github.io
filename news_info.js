@@ -1,8 +1,8 @@
 const news1 = {
-    title: "Test Title",
-    content: "<p>Test Content Test Content Test Content Test Content</p>",
+    title: "Website Making Progress!",
+    content: "<p>Thats right folks! There has been a lot of progress on this website so far! Just a couple more thing left to make :-).</p>",
     moodimg: "news_happy.gif",
-    mood: "Inquizitive",
+    mood: "Excited!",
     date: "4/4/25",
 };
 const news2 = {

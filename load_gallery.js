@@ -2,14 +2,14 @@ var galdiv;
 var galimg;
 var indiv;
 var divArray = [ ];
-for (const curobj of artArray) {
+for (let i = 0; i < artArray.length; i ++) {
     indiv = document.createElement("div");
     galdiv = document.createElement("div");
     galimg = document.createElement("img");
     indiv.classList.add("thumb-inside");
     galdiv.classList.add("thumbnail","shadow");
-    galimg.src = "art/" + curobj.img;
-    galdiv.setAttribute("onclick", "showLargeImage(" + curobj.name + ")");
+    galimg.src = "art/" + artArray[i].img;
+    galdiv.setAttribute("onclick", "showLargeImage(artArray[" + i + "])");
     indiv.appendChild(galdiv);
     document.getElementById("gallery").appendChild(indiv);
     galdiv.appendChild(galimg);
