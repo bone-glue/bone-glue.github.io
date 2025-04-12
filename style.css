@@ -155,7 +155,7 @@ h1{
 }
 .music-button:hover {
 	opacity: 1;
-	width: 16em;
+	width: 18em;
 }
 .music-button img{
 	height: inherit;
@@ -167,6 +167,7 @@ h1{
 	position:absolute;
 	right: 5.8em;
 	scale: 1.3;
+	text-align: center;
 }
 .bounce:hover .inner-bounce {
 	animation: bounce .3s;
