@@ -8,7 +8,7 @@ for (let i = 0; i < artArray.length; i ++) {
     galimg = document.createElement("img");
     indiv.classList.add("thumb-inside");
     galdiv.classList.add("thumbnail","shadow");
-    galimg.src = "art/" + artArray[i].img;
+    galimg.src = "thumbnails/" + artArray[i].img;
     galdiv.setAttribute("onclick", "showLargeImage(artArray[" + i + "])");
     indiv.appendChild(galdiv);
     document.getElementById("gallery").appendChild(indiv);
