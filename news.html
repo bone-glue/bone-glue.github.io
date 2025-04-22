@@ -36,8 +36,11 @@
                         >
                     </li>
                     <li class="bounce">
-                        <a href="news.html"
-                            ><img class="folder art inner-bounce" src="folder_art_close.png" />
+                        <a
+                            href="news.html"
+                            onmouseover="document.getElementById('news').src ='folder_news_open.png'"
+                            onmouseout="document.getElementById('news').src ='folder_news_close.png'"
+                            ><img class="folder inner-bounce" id="news" src="folder_news_close.png" />
                             <h3>News</h3></a
                         >
                     </li>
@@ -66,9 +69,9 @@
                     </li>
                 </ul>
             </nav>
-            <div id="news">
+            <div id="news-reel">
                 <!-- News Starts Here -->
-               <!-- <div class="news-item">
+                <!-- <div class="news-item">
                     <img class="news-blob" src="news/news_blob.png" />
                     <img class="news-face" src="news/news_happy.gif" />
                     <div class="mood-text-div">

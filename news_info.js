@@ -14,7 +14,7 @@ const news2 = {
 };
 const newsList = [ news1,news2 ];
 function createNewsItem(title,content,moodimg,mood,date) {
-    let newsItem = document.getElementById("news").appendChild(document.createElement("div"));
+    let newsItem = document.getElementById("news-reel").appendChild(document.createElement("div"));
     newsItem.classList.add("news-item");
     let newsBlob = newsItem.appendChild(document.createElement("img"));
     let newsFace = newsItem.appendChild(document.createElement("img"));
