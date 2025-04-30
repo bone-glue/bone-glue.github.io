@@ -1,0 +1,60 @@
+.about-text {
+    width: 79%;
+	margin: 6em 0  4em;
+	background-color: rgba(131, 184, 239, 0.65);
+	backdrop-filter: blur(10px);
+	border-radius: 4em;
+	padding: 2em 2em 2em 2em;
+}
+.about-text h2, p{
+    color: #0e09c9;
+}
+.about-text h2{
+	font-family: lores-22-serif, sans-serif;
+	text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: .1em;
+	font-size: 5em;
+	margin: -1em 0 .5em;
+}
+.about-text p{
+	font-size: 1.2em;
+    margin-right: 1em;
+    width: 81%;
+}
+.about-img {
+    width:100%;
+    overflow: hidden;
+    margin-right: -11em;
+}
+.about-img img{
+    width:inherit;
+    border-radius: 2em; 
+    image-rendering: optimizeSpeed;
+}
+.email-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+email-form form{
+    display: flex;
+    align-items: center;
+}
+textarea {
+    width: 21em;
+    border-style: none;
+	background-color: rgba(131, 184, 239, 0.65);
+	backdrop-filter: blur(10px);
+    border-radius: 2em;
+    padding: 1em;
+}
+button {
+    font-family: termina, sans-serif;
+	background-color: rgba(131, 184, 239, 0.65);
+	backdrop-filter: blur(10px);
+    border-style: none;
+    padding: 1em;
+    border-radius: 2em;
+}

@@ -1,3 +1,3 @@
-for (const curobj of newsList) {
-    createNewsItem(curobj.title,curobj.content,curobj.moodimg,curobj.mood,curobj.date);
+for (let i = 0; i < newsArray.length; i ++) {
+    createNewsItem(newsArray[i].title,newsArray[i].content,newsArray[i].moodimg,newsArray[i].mood,newsArray[i].date);
 }

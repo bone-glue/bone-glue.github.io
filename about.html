@@ -4,6 +4,7 @@
 	<title>Max Holiday's Portfolio</title>
 	<link rel="stylesheet" href="https://use.typekit.net/eaf6esd.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about_style.css">
 	<script>
 		function showLargeImage(img,title,desc) {
 			document.getElementById("largeImg").src = img;
@@ -35,13 +36,21 @@
 		</ul>
 	</nav>
 	<div>
-		<div style="width: 100%; display:flex; align-items: center;">
-			<div style="width:100%; margin-right:2em;">
-				<h2 style="text-decoration:underline; text-align: center;">I have a LOT of good ideas.</h2>
-				<p>I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. I am good. </p>
+		<div  class="about-text">
+			<h2>My name is Max!</h2>
+			<div style="width:100%; margin-right:2em; display:flex; align-items: center;" >
+				<p>I am an illustrator who works with <u>childrens books</u>, <u>programming</u> and <u>web design</u> (This website was made entirely by me).  I have experience in book layout and video game programming and asset design.<br><br>I am proficient in Adobe Photoshop, Illustrator, After Effects and InDesign, as well as Clip Studio Paint and Aseprite. I also know HTML, CSS, JavaScript and GML. <br> <br>Please contact me for further inquery!</p>
+				<div class="about-img"><img src="portrait_anim.gif" alt="portrait"></div>
 			</div>
-			<div style="width:100%; overflow: hidden;"><img src="portrait_anim.gif" alt="portrait" style="width:inherit; border-radius: 2em; image-rendering: optimizeSpeed;"></div>
 		</div>
+		<div class="email-form">
+		<form method="post" action="contact.php">
+			<textarea name="email" placeholder="Your Email"></textarea><br>
+			<textarea name="subject" placeholder="Subject"></textarea><br><br>
+			<textarea style="width: 30em;height: 10em;" name="message" placeholder="Type your message here."></textarea><br><br>
+			<button type="submit">Send Email</button>
+		</form>
+	</div>
 		<div>
 			<div style="margin: 4em 0 2em;" class="socials horizontal">
 				<ul class="socials">

@@ -21,6 +21,11 @@ const artArray = [{
         desc : "Goache, Colored Pencils - 2024",
     },
     {
+        img : "character_select.gif",
+        title : "Character Select",
+        desc: "Digital, After Effects - 2023 <br> <a href='https://vimeo.com/849971519'>High Quality Version</a>",
+    },
+    {
         img : "shark.PNG",
         title : "Shark Illustration",
         desc : "Digital - 2023",
