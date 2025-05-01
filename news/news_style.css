@@ -6,13 +6,6 @@
 	position: relative;
 	margin: 11em 0 10em;
 }
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 0.55em;
-    border-color: #0e09c9;
-    margin: 2em 0 2em ;
-}
 .news-rec img{
     display: block;
     max-height: 14em;

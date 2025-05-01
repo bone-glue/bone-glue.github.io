@@ -1,4 +1,15 @@
- div.gm4html5_div_class {
+div.game-background{
+	top: 16em;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 56em;
+	position: absolute;
+}
+.game-background div{
+	width: inherit;
+}
+div.gm4html5_div_class {
 	 display: flex;
 	 height: 31em;
 				width: 100%;

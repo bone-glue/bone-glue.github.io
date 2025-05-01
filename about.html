@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/eaf6esd.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="about_style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<script>
 		function showLargeImage(img,title,desc) {
 			document.getElementById("largeImg").src = img;
@@ -43,13 +44,46 @@
 				<div class="about-img"><img src="portrait_anim.gif" alt="portrait"></div>
 			</div>
 		</div>
+		<hr style="width: 75%; margin: auto;">
+		<!-- Email Form -->
 		<div class="email-form">
-		<form method="post" action="contact.php">
-			<textarea name="email" placeholder="Your Email"></textarea><br>
-			<textarea name="subject" placeholder="Subject"></textarea><br><br>
-			<textarea style="width: 30em;height: 10em;" name="message" placeholder="Type your message here."></textarea><br><br>
-			<button type="submit">Send Email</button>
-		</form>
+			<div style="position: relative; width: ">
+				<h1>Contact Me!</h1>
+				<div style="
+					background-color: rgba(131, 184, 239, 0.65);
+					backdrop-filter: blur(10px);
+					width: 83%;
+					height: 12em;
+					position: absolute;
+					border-radius: 6em;
+					z-index: -1;
+					left: -3em;
+					top: -3.1em;
+				"></div>
+				<form
+				  action="https://formspree.io/f/mldbgzjr"
+				  method="POST"
+				>
+				  <label>
+					Your email: <br>
+					<input style="width: 83%;" type="email" name="email">
+				  </label><br>
+				  <label>
+					Your message:<br>
+					<textarea style="height: 8em; width: 100%;" name="message"></textarea>
+				  </label><br>
+				  <!-- your other form fields go here -->
+				  <button type="submit">Send</button>
+				</form>
+				<img src="email_timp.png" style="
+					position: absolute;
+					width: 82%;
+					top: -15em;
+					left: -16em;
+					z-index: -2;
+					animation: hovering 5s infinite;
+				">
+			</div>
 	</div>
 		<div>
 			<div style="margin: 4em 0 2em;" class="socials horizontal">
