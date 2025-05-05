@@ -14,15 +14,23 @@
             <div class="grid-div">
                 <div class="grid"></div>
             </div>
-            <div class="bounce" style="position: absolute; height: 15em; width: 15em">
+            <div style="position: relative; height: inherit;">
+            <div class="bounce reveal" style="position: absolute; height: 15em; width: 15em">
                 <img
                     src="timp.png"
                     class="inner-bounce"
                     style="position: absolute; height: 15em; top: -1em; left: 3%" />
                 <img src="welcome.gif" style="position: absolute; height: 8em; left: 9em" />
+                            <img class="inner-reveal"
+                src="this_is_timp.png" style="
+                position: absolute;
+                left: 13.4em;
+                top: 5.1em;
+                ">
             </div>
             <img src="header_clouds.png" alt="Max.png" style="width: inherit; height: inherit; margin-right: -40%" />
-            <img src="Max_holiday.svg" alt="Max Holiday Ichtchenko" style="width: inherit; height: inherit" />
+            </div>
+            <a style="width: inherit; height: inherit" href="index.html"><img src="Max_holiday.svg" alt="Max Holiday Ichtchenko" style="width: inherit; height: inherit" /></a>
         </header>
         <div class="canvas">
             <nav class="horizontal">
@@ -70,6 +78,7 @@
                     </li>
                 </ul>
             </nav>
+            <hr>
             <div id="news-reel">
                 <!-- News Starts Here -->
                 <!-- <div class="news-item">
@@ -95,6 +104,53 @@
                 </div> -->
             </div>
             <script src="load_news.js"></script>
+            	<hr style="width: 75%; margin: auto;">
+	<div class="email-form">
+		<div style="position: relative; width: ">
+			<h1>Contact Me!</h1>
+			<div style="
+				background-color: rgba(131, 184, 239, 0.65);
+				backdrop-filter: blur(10px);
+				width: 83%;
+				height: 12em;
+				position: absolute;
+				border-radius: 6em;
+				z-index: -1;
+				left: -3em;
+				top: -3.1em;
+			"></div>
+			<form
+			  action="https://formspree.io/f/mldbgzjr"
+			  method="POST"
+			>
+			  <label>
+				Your email: <br>
+				<input style="width: 83%;" type="email" name="email">
+			  </label><br>
+			  <label>
+				Your message:<br>
+				<textarea style="height: 8em; width: 100%;" name="message"></textarea>
+			  </label><br>
+			  <!-- your other form fields go here -->
+			  <button type="submit">Send</button>
+			</form>
+			<img src="email_timp.png" style="
+				position: absolute;
+				width: 82%;
+				top: -15em;
+				left: -16em;
+				z-index: -2;
+				animation: hovering 5s infinite;
+			">
+		</div>
+		<h2 style="margin-top: 3em">Or contact me directly at:</h2>
+		<a href="mailto:contact@maxholidayart.com"><div style="
+				background-color: rgba(131, 184, 239, 0.65);
+				backdrop-filter: blur(10px);
+				padding: 1.2em;
+				border-radius: 3em;">
+			<h2 style="margin: 0">contact@maxholidayart.com</h2></div></a>
+</div>
             <div>
                 <div style="margin: 4em 0 2em" class="socials horizontal">
                     <ul class="socials">
