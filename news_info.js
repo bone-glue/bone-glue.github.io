@@ -1,7 +1,7 @@
 const newsArray = [
     {
         title: "Welcome to my New Website!",
-        content: "<p>Heya! If you're reading this post, that means youv not only found yourself on my humble, hand-crafted website, but you also have begun to explore it. Thank you!</p> <hr> <p>This website will serve as the cornerstone of all my creative projects, allowing you to follow updates, view my ever updating gallary of art pieces, and maybe more...? You can also contact me, whether you are a potential client, or you just wanted to reach out and say anything :v), my inbox is open. On top of that, there seems to be something odd in the 'GAME' page, maybe you can scout it out? (I'm too scared to)</p> <hr> <p>Happy browsing!</p>",
+        content: "<p>Heya! If you're reading this post, that means you've not only found yourself on my humble, hand-crafted website, but you also have begun to explore it. Thank you!</p> <hr> <p>This website will serve as the cornerstone of all my creative projects, allowing you to follow updates, view my ever updating gallery of art pieces, and maybe more...? You can also contact me, whether you are a potential client, or you just wanted to reach out and say anything :v), my inbox is open. On top of that, there seems to be something odd in the 'GAME' page, maybe you can scout it out? (I'm too scared to)</p> <hr> <p>Happy browsing!</p>",
         moodimg: "news_happy.png",
         mood: "Excited!",
         date: "5/5/25",
