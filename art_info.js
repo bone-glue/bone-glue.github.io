@@ -1,6 +1,11 @@
 //New image info goes here :)
 var curimg;
 const artArray = [{
+    img: "stairs.png",
+    title: "Now & Then",
+    desc: "Digital - 2025<br>Follow a nomad on their journey."
+    },
+    {
         img : "punypotluck_1.png",
         title : "Garden Gathering (Part 1)",
         desc : "Goache, Colored Pencils - 2024",
@@ -26,6 +31,11 @@ const artArray = [{
         desc: "Digital, After Effects - 2023 <br> <a href='https://vimeo.com/849971519'>High Quality Version</a>",
     },
     {
+        img : "mobos_wallpaper.png",
+        title : "Wallpaper for mobOS",
+        desc : "Digital - 2024",
+    },
+    {
         img : "shark.PNG",
         title : "Shark Illustration",
         desc : "Digital - 2023",
@@ -34,11 +44,6 @@ const artArray = [{
         img : "reading.png",
         title : "Reading",
         desc : "Digital - 2023",
-    },
-    {
-        img : "mobos_wallpaper.png",
-        title : "Wallpaper for mobOS",
-        desc : "Digital - 2024",
     }];
 function showLargeImage(obj) {
     document.getElementById("largeImg").src = "art/" + obj.img;
