@@ -1,124 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Max Holiday's Portfolio</title>
+	<title>Holly Holiday's Portfolio</title>
 	<link rel="stylesheet" href="https://use.typekit.net/eaf6esd.css">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="about_style.css">
+	<link rel="stylesheet" href="about_style.css" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<script>
-		function showLargeImage(img,title,desc) {
-			document.getElementById("largeImg").src = img;
-			document.getElementById("largeTitle").innerHTML = title;
-			document.getElementById("largeDesc").innerHTML = desc;
-			document.getElementById("largeImgHolder").style.display = "flex";
-		};
-	</script>
+	<script src="base_script.js"></script>
 </head>
 <body>
-
-
 <header>
             <div class="grid-div">
                 <div class="grid"></div>
             </div>
-            <div style="position: relative; height: inherit;">
-            <div class="bounce reveal" style="position: absolute; height: 15em; width: 15em">
-                <img
-                    src="timp.png"
-                    class="inner-bounce"
-                    style="position: absolute; height: 15em; top: -1em; left: 3%" />
-                <img src="welcome.gif" style="position: absolute; height: 8em; left: 13em" />
-                            <img class="inner-reveal"
-                src="this_is_timp.png" style="
-                position: absolute;
-                left: 15.3em;
-                top: 6.6em;
-				rotate: 30deg;
-                ">
+			<div id = "header-stuff">
+            <div style="position: relative; height: inherit; width: 26em;">
+				<div class="bounce reveal" id = "timp-header">
+					<img
+						src="graphics/timp.png"
+						class="inner-bounce"
+						style="position: absolute; height: 15em; top: -1em; left: 3%" />
+					<img src="graphics/welcome.gif" style="position: absolute; height: 8em; left: 13em" />
+								<img class="inner-reveal"
+					src="graphics/this_is_timp.png" style="
+					position: absolute;
+					left: 15.3em;
+					top: 6.6em;
+					rotate: 30deg;
+					">
+				</div>
+            	<img src="graphics/header_clouds.png" id = "clouds" style="; height: inherit; margin-right: -40%; z-index: -1;" />
             </div>
-            <img src="header_clouds.png" alt="Max.png" style="width: inherit; height: inherit; margin-right: -40%" />
-            </div>
-            <a style="width: inherit; height: inherit" href="index.html"><img src="Max_holiday.svg" alt="Max Holiday Ichtchenko" style="width: inherit; height: inherit" /></a>
+            <a style="margin-right : 4em; height: inherit" href="index.html"><img src="graphics/holly_holiday.svg" alt="Holly Holiday" style="height: inherit;" /></a>
+			</div>
         </header>
 <div class="canvas">
 	<nav class="horizontal">
 		<ul class="links">
-			<li class="bounce"><a href="game.html" onmouseover="document.getElementById('fun').src ='folder_game_open.png'" onmouseout="document.getElementById('fun').src ='folder_game_close.png'"><img class="folder inner-bounce" id="fun" src="folder_game_close.png"><h3>GAME</h3></a></li>
-			<li class="bounce"><a href="news.html" onmouseover="document.getElementById('news').src ='folder_news_open.png'" onmouseout="document.getElementById('news').src ='folder_news_close.png'"><img class="folder inner-bounce" id="news" src="folder_news_close.png"><h3>UPDATES</h3></a></li>
-			<li class="bounce"><a href="about.html" onmouseover="document.getElementById('about').src ='folder_about_open.png'" onmouseout="document.getElementById('about').src ='folder_about_close.png'"><img class="folder inner-bounce" id="about" src="folder_about_close.png" >  <h3>ABOUT</h3></a></li>
-			<li class="bounce"><a href="index.html" onmouseover="document.getElementById('art').src ='folder_art_open.png'" onmouseout="document.getElementById('art').src ='folder_art_close.png'"><img class="folder inner-bounce" id="art" src="folder_art_close.png" onmouseover="this.src ='folder_art_open.png'" onmouseout="this.src ='folder_art_close.png'"><h3>GALLERY</h3></a></li>
+			<li class="bounce"><a href="game.html" onmouseover="document.getElementById('fun').src ='graphics/folder_game_open.png'" onmouseout="document.getElementById('fun').src ='graphics/folder_game_close.png'"><img class="folder inner-bounce" id="fun" src="graphics/folder_game_close.png"><h3>GAME</h3></a></li>
+			<li class="bounce"><a href="about.html" onmouseover="document.getElementById('about').src ='graphics/folder_about_open.png'" onmouseout="document.getElementById('about').src ='graphics/folder_about_close.png'"><img class="folder inner-bounce" id="about" src="graphics/folder_about_close.png" >  <h3>ABOUT</h3></a></li>
+			<li class="bounce"><a href="index.html" onmouseover="document.getElementById('art').src ='graphics/folder_art_open.png'" onmouseout="document.getElementById('art').src ='graphics/folder_art_close.png'"><img class="folder inner-bounce" id="art" src="graphics/folder_art_close.png" onmouseover="this.src ='graphics/folder_art_open.png'" onmouseout="this.src ='graphics/folder_art_close.png'"><h3>GALLERY</h3></a></li>
 		</ul>
 	</nav>
 	<hr>
 	<div>
 		<div  class="about-text">
-			<h2>My name is Max!</h2>
+			<h2>My name is Holly!</h2>
 			<div style="width:100%; margin-right:2em; display:flex; align-items: center;" >
 				<p>I am an illustrator who works with <u>children's books</u>, <u>programming</u> and <u>web design</u> (This website was made entirely by me).  I have experience in book layout and video game programming and asset design.<br><br>I am proficient in Adobe Photoshop, Illustrator, After Effects and InDesign, as well as Clip Studio Paint and Aseprite. I also know HTML, CSS, JavaScript and GML. <br> <br>Please contact me for further inquery!</p>
-				<div class="about-img"><img src="portrait_anim.gif" alt="portrait"></div>
+				<div class="about-img"><div><img src="graphics/portrait.png" alt="portrait"></div>
+				</div>
 			</div>
 		</div>
 		<hr style="width: 75%; margin: auto;">
 		<!-- Email Form -->
 		<div class="email-form">
-			<div style="position: relative; width: ">
-				<h1>Contact Me!</h1>
-				<div style="
-					background-color: rgba(131, 184, 239, 0.65);
-					backdrop-filter: blur(10px);
-					width: 83%;
-					height: 12em;
-					position: absolute;
-					border-radius: 6em;
-					z-index: -1;
-					left: -3em;
-					top: -3.1em;
-				"></div>
-				<form
-				  action="https://formspree.io/f/mldbgzjr"
-				  method="POST"
-				>
-				  <label>
-					Your email: <br>
-					<input style="width: 83%;" type="email" name="email">
-				  </label><br>
-				  <label>
-					Your message:<br>
-					<textarea style="height: 8em; width: 100%;" name="message"></textarea>
-				  </label><br>
-				  <!-- your other form fields go here -->
-				  <button type="submit">Send</button>
-				</form>
-				<img src="email_timp.png" style="
-					position: absolute;
-					width: 82%;
-					top: -15em;
-					left: -16em;
-					z-index: -2;
-					animation: hovering 5s infinite;
-				">
-			</div>
-			<h2 style="margin-top: 3em">Or contact me directly at:</h2>
-			<a href="mailto:contact@maxholidayart.com"><div style="
-					background-color: rgba(131, 184, 239, 0.65);
-					backdrop-filter: blur(10px);
-					padding: 1.2em;
-					border-radius: 3em;">
-				<h2 style="margin: 0">contact@maxholidayart.com</h2></div></a>
-	</div>
-		<div>
-			<div style="margin: 4em 0 2em;" class="socials horizontal">
-				<ul class="socials">
-				<li><div class="bounce"><a style="height: inherit;" href="https://bsky.app/profile/maxholidayart.com"><img class="inner-bounce" style="width:100%;height:inherit;" src="bluesky_media_kit_logo_svgs.svg"></a></div></li>
-				<li><div class="bounce"><a style="height: inherit;"  href="https://www.instagram.com/bone_glue/"><img class="inner-bounce" style="width:100%; height:inherit" src="Instagram_Glyph_Gradient.svg"></a></div></li>
-				</ul>
-			</div>
+		<div style="position: relative; width: ">
+			<h1>Contact Me!</h1>
+			<div style="
+				background-color: rgba(131, 184, 239, 0.65);
+				backdrop-filter: blur(10px);
+				width: 83%;
+				height: 12em;
+				position: absolute;
+				border-radius: 6em;
+				z-index: -1;
+				left: -3em;
+				top: -3.1em;
+			"></div>
+			<form
+			  action="https://formspree.io/f/mldbgzjr"
+			  method="POST"
+			>
+			  <label>
+				Your email: <br>
+				<input style="width: 83%;" type="email" name="email">
+			  </label><br>
+			  <label>
+				Your message:<br>
+				<textarea style="height: 8em; width: 100%;" name="message"></textarea>
+			  </label><br>
+			  <!-- your other form fields go here -->
+			  <button type="submit">Send</button>
+			</form>
+			<img src="graphics/email_timp.png" style="
+				position: absolute;
+				width: 82%;
+				top: -15em;
+				left: -16em;
+				z-index: -2;
+				animation: hovering 5s infinite;
+			">
+		</div>
+		<h2 style="margin-top: 3em">Or contact me directly at:</h2>
+		<a href="mailto:contact@maxholidayart.com"><div style="
+				background-color: rgba(131, 184, 239, 0.65);
+				backdrop-filter: blur(10px);
+				padding: 1.2em;
+				border-radius: 3em;">
+			<h2 style="margin: 0">contact@maxholidayart.com</h2></div></a>
+</div>
+	<div>
+		<div style="margin: 4em 0 2em;" class="socials horizontal">
+			<ul class="socials">
+			<li><div class="bounce"><a style="height: inherit;" href="https://bsky.app/profile/maxholidayart.com"><img class="inner-bounce" style="width:100%;height:inherit;" src="graphics/bluesky_media_kit_logo_svgs.svg"></a></div></li>
+			<li><div class="bounce"><a style="height: inherit;"  href="https://www.instagram.com/bone_glue/"><img class="inner-bounce" style="width:100%; height:inherit" src="graphics/Instagram_Glyph_Gradient.svg"></a></div></li>
+			</ul>
 		</div>
 	</div>
 	</div>
+	</div>
 <footer>
-	<img src="max_signature.svg" style="height:inherit; margin: auto; opacity:.5;">
+	<img src="graphics/holly_signature.svg" style="height:inherit; margin: auto ;opacity:.5;">
 </footer>
 
 </body>

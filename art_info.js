@@ -1,29 +1,59 @@
 //New image info goes here :)
 var curimg;
 const artArray = [{
-    img: "stairs.png",
-    title: "Now & Then",
-    desc: "Digital - 2025<br>Follow a nomad on their journey."
+        img: "stairs.png",
+        title: "Now & Then",
+        desc: "Digital - 2025<br>Follow a nomad on their journey."
     },
     {
         img : "punypotluck_1.png",
         title : "Garden Gathering (Part 1)",
-        desc : "Goache, Colored Pencils - 2024",
+        desc : "Gouache, Colored Pencils - 2024",
     },
     {
         img : "punypotluck_2.jpg",
         title : "Puny Potluck (Part 2)",
-        desc : "Goache, Colored Pencils - 2024",
+        desc : "Gouache, Colored Pencils - 2024",
     },
     {
         img : "punypotluck_3.png",
         title : "Itty-Bitty Banquet (Part 3)",
-        desc : "Goache, Colored Pencils - 2024",
+        desc : "Gouache, Colored Pencils - 2024",
     },
     {
         img : "well.png",
         title : "Well Painting",
-        desc : "Goache, Colored Pencils - 2024",
+        desc : "Gouache, Colored Pencils - 2024",
+    },
+    {
+        img : "dogputer.png",
+        title : "World Wide Woof",
+        desc : "3D Model (Blender) - 2026",
+    },
+    {
+        img : "doug.png",
+        title : "The Dog in my Soul",
+        desc : "Digital - 2026",
+    },
+    {
+        img : "office_concept.png",
+        title : "Game Concept",
+        desc : "Digital - 2024",
+    },
+    {
+        img : "color_mario.png",
+        title : "Color Me (a.k.a. Moldy) Mario",
+        desc : "Digital - 2024",
+    },
+    {
+        img : "puppet_paint.png",
+        title : "Puppet Character Painting 1",
+        desc : "Gouache - 2024",
+    },
+    {
+        img : "puppet_digital.png",
+        title : "Puppet Character Painting 2",
+        desc : "Digital - 2024",
     },
     {
         img : "character_select.gif",
@@ -46,6 +76,7 @@ const artArray = [{
         desc : "Digital - 2023",
     }];
 function showLargeImage(obj) {
+    document.getElementById("largeImg").src = "graphics/loading_gif.gif";
     document.getElementById("largeImg").src = "art/" + obj.img;
     document.getElementById("largeTitle").innerHTML = obj.title;
     document.getElementById("largeDesc").innerHTML = obj.desc;

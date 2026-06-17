@@ -1,10 +1,10 @@
 .about-text {
     width: 79%;
-	margin: 6em 0  4em;
+	margin: 6em auto 6em auto;
 	background-color: rgba(131, 184, 239, 0.65);
 	backdrop-filter: blur(10px);
 	border-radius: 4em;
-	padding: 2em 2em 2em 2em;
+	padding: 2em 2em 2em 6em;
 }
 .about-text h2, p{
     color: #0e09c9;
@@ -23,12 +23,27 @@
     width: 81%;
 }
 .about-img {
-    width:100%;
-    overflow: hidden;
-    margin-right: -11em;
+    width: 64%;
+    height: 482px;
+    position: relative;
+}
+.about-img div{
+    position: absolute;
+    height: 26em;
+    width:30em;
+    margin: auto -21em auto 40px;
+    background-color: rgba(14, 9, 201, 0.48);
+    backdrop-filter: blur(10px);
+    border-radius: 2em;
+    max-width: 
 }
 .about-img img{
-    width:inherit;
-    border-radius: 2em; 
+    position: absolute;
+    bottom: 0;
+    left: -43px;
+    max-width: 100%;
+    overflow: visible;
+
     image-rendering: optimizeSpeed;
+ 
 }

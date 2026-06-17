@@ -46,7 +46,7 @@ div.grid {
 	z-index: -1;
 	height: 500px;
 	position: absolute;
-	background-image: url(grid.svg);
+	background-image: url(graphics/grid.svg);
 	background-repeat: repeat-x;
 	opacity: .1;
 	animation: scroll 3s linear infinite;
@@ -67,6 +67,27 @@ header{
 	height: 13em;
 	padding: 2em 2em -1em;
 	margin: 3% 3% 0%;
+	width: 100%;
+}
+#header-stuff {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	height: inherit;
+}
+#timp-header{
+	position: absolute;
+	height: 15em;
+	width: 15em;
+}
+@media only screen and (max-width: 850px) {
+	#timp-header {
+		display: none;
+	}
+	#clouds {
+		position: fixed;
+	}
 }
 .links{
 	list-style: none;
@@ -185,6 +206,7 @@ footer{
 	height: 11em;
 	width: 100%;
 	display: flex;
+	margin-bottom: 20px ;
 }
 .email-form {
     display: flex;
